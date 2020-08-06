@@ -30,8 +30,9 @@ Package: com.pearsalex.settingschange
 Version: 1.0
 Section: Tweaks
 Maintainer: Alex Pearson <pearsalex2000@gmail.com>
+Depends: firmware (<7.0)
 Architecture: iphoneos-arm
-Filename: ./debs/com.pearsalex.settingschange_1.0.deb
+Filename: ./debs/com.pearsalex.settingschange_1.0.0-1_iphoneos-arm.deb
 Size: 4662
 MD5sum: f0a2370d2855773b8be1aa3b5ee72de7
 Description: Change the banner in settings!
