@@ -26,8 +26,6 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
-com.pearsalex.settingschange_1.0-3+debug_iphoneos-arm.deb
-
 Package: com.pearsalex.settingschange
 Version: 1.0
 Section: Tweaks
