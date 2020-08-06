@@ -25,3 +25,16 @@ Description: This is a sample old package. Firmware should be lower than 7.0
 Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+
+Package: com.pearsalex.settingschange
+Version: 1.0
+Section: Tweaks
+Maintainer: Alex Pearson <pearsalex2000@gmail.com>
+Architecture: iphoneos-arm
+Filename: ./debs/com.pearsalex.settingschange_1.0.deb
+Size: 4662
+MD5sum: f0a2370d2855773b8be1aa3b5ee72de7
+Description: Change the banner in settings!
+Name: Settings Change
+Author: Alex Pearson <pearsalex2000@gmail.com>
+Depiction: https://pearsalex.github.io/repo/depictions/?p=com.pearsalex.settingschange
