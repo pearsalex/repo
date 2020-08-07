@@ -2,6 +2,7 @@
 	<id>com.pearsalex.settingschange</id>
 	<name>Settings Change</name>
 	<version>1.0</version>
+<<<<<<< HEAD
 	<compatibility>
 		<firmware>
 			<maxiOS>13.5</maxiOS>
@@ -20,4 +21,6 @@
 		<change>Initial release</change>
 	</changelog>
 	<links></links>
+=======
+>>>>>>> 0fc5f77302912cd2473ade28c7f856a8896fb0a8
 </package>
