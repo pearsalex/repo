@@ -2,25 +2,44 @@
 	<id>com.pearsalex.settingschange</id>
 	<name>Settings Change</name>
 	<version>1.0</version>
-<<<<<<< HEAD
 	<compatibility>
 		<firmware>
-			<maxiOS>13.5</maxiOS>
-			<otherVersions>unsupported</otherVersions>
-			<!--
-			for otherVersions, you can put either unsupported or unconfirmed
-			-->
+			<miniOS>13.5</miniOS>
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>This is a sample new package. Firmware should be greater than 13.5</shortDescription>
 	<descriptionlist>
-		<description>This is an new package. Requires iOS 13.5 and above..</description>
+		<description>This is an package will full depictions.</description>
+		<description>It has more description lines.</description>
+		<description><![CDATA[
+		You can also have<br/> 
+		a multi-line item.
+		]]>
+		</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Second release</change>
+		<change>It has feature 1</change>
+		<change>It has feature 2</change>
 	</changelog>
-	<links></links>
-=======
->>>>>>> 0fc5f77302912cd2473ade28c7f856a8896fb0a8
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
 </package>
