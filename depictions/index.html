@@ -2,55 +2,10 @@
 <html lang="en">
 <head>
   <title>PackageName</title>
-
-	bundleid = $.QueryString['p'];
-
-	var contentBlocks = getContentBlocks();
-
-    $( document ).ready(function() {
-		//return;
-		populateContentBlocks(
-			(bundleid+"/info.xml"),
-			contentBlocks,
-			() => {
-                $("#packageError").show();
-				$("#packageInformation").hide();				
-			},
-			(xml) => {
-				document.title = $(xml).find("package>name").text();
-			}
-		)
-
-    }); // ready
   </script>
 </head>
 <body>
 <br />
-
-<div id="packageInformation">
-
-	<div id="packageHeader" class="container" style="display:block">
-		<div class="jumbotron">
-			<h1 id="packageName">&nbsp;</h1>
-			<p id="packageShortDesc">&nbsp;</p>
-		</div>
-	</div>
-
-	<div class="container">
-	  <div id="compatibilityCheck" class="alert">&nbsp;</div>
-	</div>
-
-	<div class="container" id="dependenciesContainer">
-		<h5>DEPENDENCIES</h5>
-		<ul id="dependencyList" class="list-group">
-		</ul>
-	</div>
-
-	<div class="container" id="externalLinksContainer">
-		<h5>LINKS</h5>
-		<ul id="externalLinksList" class="list-group">
-		</ul>
-	</div>
 
 </div>
 <div id="packageError" style="display:none">
