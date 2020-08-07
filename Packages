@@ -30,7 +30,7 @@ Package: com.pearsalex.settingschange
 Version: 1.0
 Section: Tweaks
 Maintainer: Alex Pearson <pearsalex2000@gmail.com>
-Depends: firmware (<13.0)
+Depends: firmware (<13.5)
 Architecture: iphoneos-arm
 Filename: ./debs/com.pearsalex.settingschange_1.0.0-1_iphoneos-arm.deb
 Size: 4662
