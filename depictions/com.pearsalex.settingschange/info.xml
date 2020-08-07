@@ -2,16 +2,4 @@
 	<id>com.pearsalex.settingschange</id>
 	<name>Settings Change</name>
 	<version>1.0</version>
-	<compatibility>
-		<firmware>
-			<miniOS>13.5</miniOS>
-		</firmware>
-	</compatibility>
-	<dependencies>
-		<package>mobilesubstrate</package>
-	</dependencies>
-	<shortDescription>This is a sample new package. Firmware should be greater than 7.0</shortDescription>
-	<descriptionlist>
-		<description>This is an package will full depictions.</description>
-	</descriptionlist>
 </package>
