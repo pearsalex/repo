@@ -1,10 +1,10 @@
 <package>
-	<id>com.pearsalex.settingschange</id>
-	<name>Settings Change</name>
-	<version>1.0</version>
+	<id>com.supermamon.fullpackage</id>
+	<name>Full Package</name>
+	<version>2.0.0-1</version>
 	<compatibility>
 		<firmware>
-			<miniOS>13.5</miniOS>
+			<miniOS>7.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
